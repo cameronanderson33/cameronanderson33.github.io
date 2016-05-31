@@ -1,11 +1,104 @@
 
+
 <!DOCTYPE html>
-<html  lang="en-US">
+<html lang="en-US">
+<head>
+  <title>Cameron Anderson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
 <body>
-<h4>My Name is Cameron Anderson</h4>
-<hr>
-<p title="About Me">I am a student at the Georgia Institute of Technology studying to become and Industrial and Systems Engineer.</p>
-<p><a href="https://www.facebook.com/cameron.anderson.13">FB</a></p>
-<img src="https://lh3.googleusercontent.com/oh1B9QpJ7ZPCyRhpZW6m3hf6gUA4iFgYy7NVOry8SarHjI5HU6JcY2ftg08JZlJp-ijNYrzMLjEeKcLGya5tOYgJ2meqgtqAkxXVENJ8XmYbcCJ0jjXj-6Js3PjE-2vCzi6AsHDDe3zphaeUkJWHyTFtCegsS4rOaMdcDSA9wiv3Sp-pQCWgVRFghp8QdBfTZsnTePlNHQkNRWwovFLOlOuXOfvnPxma6vd5ZBeqJat6-dqRRAhcsaCEjo1aBerpO5DzyMS4tft33Ar4BYkJyBMiqHJHvMktxXnZN9mpZ37qD--y_bpv9dbT269ca59Zl54upk05qCQyirAKZbT-NxornatrIcdnpzadfgpJZ29y-krKJnuKnEmXa8hI8KQbKev_0NS4jEJzmfRlgZA8JvaHP4MBTlXEg7gmBjKNjUOJfevg1FCbP5r_5flSz0BHmnKgNSxiqhE7p9uKKJfacUum44gUPadnc-V1xyEjWlEAehfQRqlMnjYEWv6kDAfgyCNDCHaHmbBl6pUm4PGw_leRwJg5zHKRKUayYlYgT5TZ_6YGKvZmmfYOtjXifLmoXcLnhJrGrjjsPOsuxlOoqupkv83dte4=w646-h775-no" alt="Cameron Anderson" width="300" length="400">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://www.cameronpanderson.com/test">Home</a></li>
+        <li><a href="http://www.cameronpanderson.com/about">About</a></li>
+        <li><a href="http://www.cameronpanderson.com/photos">Photos</a></li>
+        <li><a href="http://www.cameronpanderson.com/contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="https://www.facebook.com/cameron.anderson.13">Facebook</a></p>
+      <p><a href="https://www.linkedin.com/in/cameron-anderson-78807bb0?trk=hp-identity-name">LinkedIn</a></p>
+      <p><a href="#">Resume</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Hello!</h1>
+      <p>My name is Cameron Anderson. I am a fourth year student at the Georgia Institute of Technology. In May of 2018 I will earn my degree in Industrial and Systems Engineering.</p>
+      <hr>
+      <h3>About Me</h3>
+      <p>I'm from Milton, GA. I like snowboarding, working on cars, and weight lifting.</p>
+      <img src="https://lh3.googleusercontent.com/oh1B9QpJ7ZPCyRhpZW6m3hf6gUA4iFgYy7NVOry8SarHjI5HU6JcY2ftg08JZlJp-ijNYrzMLjEeKcLGya5tOYgJ2meqgtqAkxXVENJ8XmYbcCJ0jjXj-6Js3PjE-2vCzi6AsHDDe3zphaeUkJWHyTFtCegsS4rOaMdcDSA9wiv3Sp-pQCWgVRFghp8QdBfTZsnTePlNHQkNRWwovFLOlOuXOfvnPxma6vd5ZBeqJat6-dqRRAhcsaCEjo1aBerpO5DzyMS4tft33Ar4BYkJyBMiqHJHvMktxXnZN9mpZ37qD--y_bpv9dbT269ca59Zl54upk05qCQyirAKZbT-NxornatrIcdnpzadfgpJZ29y-krKJnuKnEmXa8hI8KQbKev_0NS4jEJzmfRlgZA8JvaHP4MBTlXEg7gmBjKNjUOJfevg1FCbP5r_5flSz0BHmnKgNSxiqhE7p9uKKJfacUum44gUPadnc-V1xyEjWlEAehfQRqlMnjYEWv6kDAfgyCNDCHaHmbBl6pUm4PGw_leRwJg5zHKRKUayYlYgT5TZ_6YGKvZmmfYOtjXifLmoXcLnhJrGrjjsPOsuxlOoqupkv83dte4=w646-h775-no" alt="Cameron Anderson" width="150" length="200">
+
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>2016 Cameron Anderson</p>
+</footer>
+
 </body>
 </html>
